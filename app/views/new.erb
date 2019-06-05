@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h3>Create a New Recipe:</h3>
+        <form class="new-recipe" method="POST" action="/recipes">
+            <p><label for="name">Recipe Name:</label>
+            <input type="text" name="name"></p>
+            <p><label for="ingredients">Recipe Ingredients:</label>
+            <input type="text" name="ingredients"></p>
+            <p><label for="cook_time">Recipe Cook Time (in minutes):</label>
+            <input type="number" name="cook_time"></p>
+            <input type="submit" value="Submit Recipe">
+        </form>
+    </body>
+</html>
